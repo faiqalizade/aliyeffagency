@@ -1,10 +1,11 @@
-if(window.location.pathname != '/aliyeff/'){
-    preloader = false
-}else{
+if($('.preloader')){
     preloader = true
+}else{
+    preloader = false
 }
 $(document).ready(function () {
     if(preloader){
+        $('.preloader_text').show();
         $('.preloader_text').typeIt({
             speed: 200,
             autoStart: false
