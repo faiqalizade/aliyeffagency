@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    border-radius: 0;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    border-radius: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.preloader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    font-size: 100px;
+    z-index: 101;
+}
+
+.preloader_text {
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .8s ease-in;
+}
+
+.container,
+.mainContent_page {
+    padding: 0 15px;
+}
+
+.fullPageSection_container {
+    height: 100%;
+}
+
+.mainHeader {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 30px);
+    top: 0;
+    height: 50px;
+    z-index: 3;
+}
+
+.mainHeader_logo {
+    font-size: 40px;
+}
+
+.mainHeader_menu {
+    display: flex;
+    font-weight: 500;
+}
+
+.mainHeader_menu li {
+    margin: 0 15px;
+}
+
+#fullPageScroll {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.fullPageSection {
+    height: 100%;
+    display: flex;
+}
+
+.mainContent_page {
+    height: 100%;
+}
+
+.mainContent_text1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.mainContent_text2 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.mainContent_text3 {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.mainContent_text4 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.mainContent_text5 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.mainContent_text6 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.mainContent_text7 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.primaryBtn {
+    padding: 15px 20px;
+    border: 2px solid;
+    transition: all .5s;
+    font-weight: 500;
+}
+
+.primaryBtn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.socialsWrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.socialIcon {
+    display: block;
+    margin: 0 10px;
+    color: #202020;
+}
